@@ -16,11 +16,12 @@
 2. **[このスクリプトをインストールする](https://raw.githubusercontent.com/koyasi777/rakuten-full-title/main/rakuten-full-title.user.js)** ← クリックで直接インストール！
 3. 自動的にインストール画面が開きます。
 
-## 🛠 技術的なポイント
+## 🛠 技術構成
 
-- CSSで `text-overflow`, `white-space`, `max-height` などの省略設定を解除
-- `MutationObserver` によって動的に表示される商品にも適用
-- クラス名の厳密指定を避け、`[class*="title-link"]` のような部分一致で耐久性を確保
+- CSSの `text-overflow`, `white-space`, `max-height` など、商品タイトルの省略制限をすべて解除
+- `MutationObserver` により、動的DOM変更（Ajax・フィルター操作など）にもスタイルを自動適用
+- クラス名の変更に強い `class*="title-link"` などの部分一致セレクタで、将来のレイアウト変更にも耐性あり
+- 処理済み要素を記録することで、無駄な再処理を防ぎ、軽量かつ高速に動作
 
 ## 📜 ライセンス
 
