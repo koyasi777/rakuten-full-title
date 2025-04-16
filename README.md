@@ -13,8 +13,8 @@
 ## ⚙️ インストール方法
 
 1. Violentmonkey または Tampermonkey をブラウザに導入
-2. 以下のスクリプトをインストール：  
-   [rakuten-full-title.user.js](./rakuten-full-title.user.js)
+2. **[このスクリプトをインストールする](https://raw.githubusercontent.com/koyasi777/rakuten-full-title/main/rakuten-full-title.user.js)** ← クリックで直接インストール！
+3. 自動的にインストール画面が開きます。
 
 ## 🛠 技術的なポイント
 
