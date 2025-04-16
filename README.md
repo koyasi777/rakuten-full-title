@@ -29,12 +29,4 @@ MIT License
 
 ---
 
-### ✨ Screenshots
-
-Before | After
-:--:|:--:
-![before](./screenshot_before.png) | ![after](./screenshot_after.png)
-
----
-
 > 楽天の商品名が「…」で消えて読めない？このスクリプトでストレスフリーに。
