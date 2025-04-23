@@ -1,8 +1,22 @@
 // ==UserScript==
-// @name         楽天市場の商品名を強制全文表示
+// @name         楽天市場の商品タイトルを全文表示【Ajax対応】
+// @name:en      Show Full Product Titles on Rakuten Ichiba
+// @name:zh-CN   显示完整的乐天商品标题（修复省略问题）
+// @name:zh-TW   顯示完整的樂天商品標題（解決省略問題）
+// @name:ko      라쿠텐 상품 전체 제목 표시 (잘림 문제 해결)
+// @name:es      Mostrar títulos completos en Rakuten (Solución al truncamiento)
+// @name:fr      Afficher le titre complet des produits Rakuten (Correction du troncage)
+// @name:de      Vollständige Produkttitel auf Rakuten anzeigen (Trunkierung beheben)
 // @namespace    https://github.com/koyasi777/rakuten-full-title
-// @version      1.0
-// @description  楽天市場で商品名が「…」で省略される問題を解消し、全文表示します。Ajax対応、見やすさ重視。
+// @version      2.0
+// @description 楽天市場の商品タイトルが「…」で省略される問題を修正し、すべて表示します。Ajax動的ページにも対応し、視認性アップ！
+// @description:en Fixes truncated Rakuten product titles ("..."). Displays full names, AJAX-compatible, improves readability.
+// @description:zh-CN 解决乐天商品标题被“...”省略的问题，支持AJAX页面加载，提升可读性。
+// @description:zh-TW 解決樂天商品標題被“...”省略的問題，支援AJAX載入，提升可讀性。
+// @description:ko 라쿠텐 상품 제목이 '...'으로 생략되는 문제를 해결하고 AJAX 페이지에서도 작동. 가독성 향상.
+// @description:es Corrige el problema de truncamiento de títulos en Rakuten. Compatible con AJAX y mejora la legibilidad.
+// @description:fr Corrige les titres tronqués sur Rakuten. Prise en charge d’AJAX et amélioration de la lisibilité.
+// @description:de Behebt das Problem mit abgeschnittenen Produkttiteln auf Rakuten. AJAX-kompatibel und bessere Lesbarkeit.
 // @author       koyasi777
 // @match        https://search.rakuten.co.jp/*
 // @grant        none
