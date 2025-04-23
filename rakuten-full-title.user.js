@@ -8,7 +8,7 @@
 // @name:fr      Afficher le titre complet des produits Rakuten (Correction du troncage)
 // @name:de      Vollständige Produkttitel auf Rakuten anzeigen (Trunkierung beheben)
 // @namespace    https://github.com/koyasi777/rakuten-full-title
-// @version      2.0
+// @version      2.1
 // @description 楽天市場の商品タイトルが「…」で省略される問題を修正し、すべて表示します。Ajax動的ページにも対応し、視認性アップ！
 // @description:en Fixes truncated Rakuten product titles ("..."). Displays full names, AJAX-compatible, improves readability.
 // @description:zh-CN 解决乐天商品标题被“...”省略的问题，支持AJAX页面加载，提升可读性。
@@ -23,6 +23,7 @@
 // @license      MIT
 // @homepageURL  https://github.com/koyasi777/rakuten-full-title
 // @supportURL   https://github.com/koyasi777/rakuten-full-title/issues
+// @icon         https://corp.rakuten.co.jp/about/assets/img/brand_story/circle_logo.svg
 // ==/UserScript==
 
 (function () {
